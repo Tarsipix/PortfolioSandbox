@@ -38,3 +38,11 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Development only gems
+group :development do
+  gem 'faker'
+  gem 'quiet_assets'
+  gem 'binding_of_caller'
+  gem 'better_errors'  
+  gem 'pry'
+end
