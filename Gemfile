@@ -47,6 +47,11 @@ gem 'figaro'
 # Use Sorcery for user authentication
 gem 'sorcery'
 
+# UI / scss gems
+gem 'bourbon'
+gem 'bitters'
+gem 'neat'
+
 # Development only gems
 group :development do
   gem 'faker'
